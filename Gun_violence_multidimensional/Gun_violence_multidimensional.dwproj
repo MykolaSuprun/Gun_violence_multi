@@ -6,6 +6,18 @@
     <Name>Gun_violence_multidimensional.database</Name>
     <FullPath>Gun_violence_multidimensional.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Gun Violence.cube</Name>
+      <FullPath>Gun Violence.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Gun Violence.partitions</Name>
+          <FullPath>Gun Violence.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Date.dim</Name>
