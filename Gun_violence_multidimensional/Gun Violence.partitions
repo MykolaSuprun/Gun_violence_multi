@@ -1,19 +1,39 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="83e2110c-a29f-4826-9d4e-55f7ee207e6a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="423faede-7168-4122-a657-4d26021c1561" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Gun Violence</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Incident</ID>
       <Partitions>
-        <Partition dwd:design-time-name="40b28e40-c625-495e-ae90-9dc39c014f9f">
+        <Partition dwd:design-time-name="3f3d21ad-bdba-4e9f-be1f-92c612c23a1e">
           <ID>Incident</ID>
           <Name>Incident</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="a7e5ae16-bae6-4591-8a5f-89f375cb2d87">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="2a609c8d-62b8-4681-9b73-a57f213eb6f2">
             <DataSourceViewID>Gun Violence</DataSourceViewID>
             <TableID>dbo_Incident</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Incident Information</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="b64f3ff9-5e2c-4d6d-885f-2eb2647ceada">
+          <ID>Incident Information</ID>
+          <Name>Incident Information</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ceb6e207-d5ce-46a7-b9c9-db2ddc074c7d">
+            <DataSourceViewID>Gun Violence</DataSourceViewID>
+            <TableID>dbo_Incident_Info</TableID>
           </Source>
           <StorageMode>Molap</StorageMode>
           <CurrentStorageMode>Molap</CurrentStorageMode>
