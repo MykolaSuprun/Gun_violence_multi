@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Gun_violence_multidimensional", "Gun_violence_multidimensional\Gun_violence_multidimensional.dwproj", "{7F65A96D-ECC4-44A1-804B-C8FE27B5724E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F65A96D-ECC4-44A1-804B-C8FE27B5724E}.Development|Default.ActiveCfg = Development
+		{7F65A96D-ECC4-44A1-804B-C8FE27B5724E}.Development|Default.Build.0 = Development
+		{7F65A96D-ECC4-44A1-804B-C8FE27B5724E}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4899866D-E2EF-4A78-9851-D5B482D420AF}
+	EndGlobalSection
+EndGlobal

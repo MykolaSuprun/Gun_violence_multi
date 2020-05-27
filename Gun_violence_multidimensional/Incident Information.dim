@@ -1,0 +1,241 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2c2afd53-156f-4d79-a47b-7d11330b071a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Incident Information</ID>
+  <Name>Incident Information</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3737" scrolltop="-6747" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="17066" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Incident information" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4498" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e000092110000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Incident_Info" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3737</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6747</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="e76c80da-d2ff-43a3-b238-96634b211d17">
+    <DataSourceViewID>Gun Violence</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="a348f66c-2e47-4f55-b960-f56ea8e04d80">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1a5c45c2-3d89-47d7-b71a-7a71e3f99f73">
+      <ID>Id Incident Info</ID>
+      <Name>Id Incident Info</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="8b4ac124-028d-4cf7-a80f-42a9bc715684">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7e96c3b4-02a6-4777-81ed-869944435349">
+            <TableID>dbo_Incident_Info</TableID>
+            <ColumnID>idIncident_Info</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="40357a0f-77d0-4075-8e87-909533a70eaa">
+          <AttributeID>Incident Url Fields Missing</AttributeID>
+          <Name>Incident Url Fields Missing</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b32437f4-411d-4728-b3cf-7ade26c76262">
+          <AttributeID>Incident Url</AttributeID>
+          <Name>Incident Url</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="862e5f5e-8378-4b86-a2ec-6035c754986b">
+          <AttributeID>Source Url</AttributeID>
+          <Name>Source Url</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="1b534b43-42dc-4586-8a55-ca90fca9a383">
+          <AttributeID>Incident Characteristics</AttributeID>
+          <Name>Incident Characteristics</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="d402cac4-3f1f-44a1-909e-d8875f317fd4">
+          <AttributeID>Notes</AttributeID>
+          <Name>Notes</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e7a88112-97a5-4f54-9dfe-9f591d736c8b">
+      <ID>Incident Url Fields Missing</ID>
+      <Name>Incident Url Fields Missing</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="eafcf472-b09d-46ae-8537-4ca03c923524">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a1e3292-a54b-433b-9b86-e82ff7697c86">
+            <TableID>dbo_Incident_Info</TableID>
+            <ColumnID>incident_url_fields_missing</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="fa50e123-93e3-467b-8abf-f6dbfa0d3ec3">
+      <ID>Incident Url</ID>
+      <Name>Incident Url</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="647d7b0d-dbd6-4091-8b95-83d26b0d3641">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ffb42cd8-faf9-44b2-84ea-409765779cf6">
+            <TableID>dbo_Incident_Info</TableID>
+            <ColumnID>incident_url</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aa073d8b-8002-4139-ad8a-b8abd5c1cf4c">
+      <ID>Source Url</ID>
+      <Name>Source Url</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b60056cb-583c-4e02-ad06-b88dd1222dfa">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="18ccf0b4-86cf-4c1b-ab75-44fee63cad7b">
+            <TableID>dbo_Incident_Info</TableID>
+            <ColumnID>source_url</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7ccd1a28-9fe4-4439-b191-8970800f7951">
+      <ID>Incident Characteristics</ID>
+      <Name>Incident Characteristics</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6faa87e1-300f-4194-a375-b82328022a20">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c4202f7a-0ebb-4d3e-b5ef-f7c2597a0e16">
+            <TableID>dbo_Incident_Info</TableID>
+            <ColumnID>incident_characteristics</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cc78bf13-e936-4fb5-895d-61038d04a7a0">
+      <ID>Notes</ID>
+      <Name>Notes</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1dcf623b-a57c-463b-97f5-e2fce634d052">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="69690bbd-ea07-48bc-beeb-5a2db2e2dbfc">
+            <TableID>dbo_Incident_Info</TableID>
+            <ColumnID>notes</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="5551f51b-390d-4e00-b574-8026ea218398">
+      <ID>Hierarchy</ID>
+      <Name>Description hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="f2a812fe-e950-481b-9038-6d07208e598b">
+          <ID>Incident Characteristics</ID>
+          <Name>Incident Characteristics</Name>
+          <SourceAttributeID>Incident Characteristics</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="db05487b-3546-42f1-b0d0-6d6f6c7c1a9c">
+          <ID>Notes</ID>
+          <Name>Notes</Name>
+          <SourceAttributeID>Notes</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="e461f99d-bb0b-41bd-8e3f-b56912fabaf5">
+      <ID>Hierarchy 1</ID>
+      <Name>Data source hierarchy</Name>
+      <Levels>
+        <Level dwd:design-time-name="89dcc775-907b-481b-bd9e-f461a5165de5">
+          <ID>Incident Url</ID>
+          <Name>Incident Url</Name>
+          <SourceAttributeID>Incident Url</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d255f41b-41ab-4eb3-bfbe-427d0d6a9718">
+          <ID>Incident Url Fields Missing</ID>
+          <Name>Incident Url Fields Missing</Name>
+          <SourceAttributeID>Incident Url Fields Missing</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="f3c5a2c2-32c8-4915-8535-a83aee4e0d5e">
+          <ID>Source Url</ID>
+          <Name>Source Url</Name>
+          <SourceAttributeID>Source Url</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
